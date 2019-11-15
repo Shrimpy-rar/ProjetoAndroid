@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nomelogin">Usuário</string>
+    <string name="senhalogin">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastre">Cadastro</string>
+    <string name="usuariocadastro">Insira seu e-mail</string>
+    <string name="senhacadastro">Crie uma senha</string>
+    <string name="confirmasenha">Confirme sua senha</string>
+    <string name="title_activity_sidebar">Sidebar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gotham</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="sobre">Sobre o aplicativo</string>
+    <string name="sobretexto">Aplicativo desenvolvido por alunos do curso de análise e desenvolvimento de sistemas da faculdade de Tecnologia SENAI Porto Alegre,
+        na disciplina de programação de dispositivos móveis (2019/2).\n\n
+
+Professor: Marcelo Soares\n
+Desenvolvedores: Mariana Bitencourt, Pablo Loehder, Renan Tristão e Willian Kaminski.\n\n
+
+Versão do App: 1.0</string>
+</resources>
