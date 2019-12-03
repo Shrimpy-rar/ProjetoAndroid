@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textColor="@color/colorText"
+            tools:text="@string/alterar" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="2dp"
+            android:background="#D7D35F" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/estilologin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            tools:text="@string/novoemail" />
+
+        <EditText
+            android:id="@+id/alteraEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            style="@style/estilologin" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/estilologin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TextView"
+            tools:text="@string/senhaaltera" />
+
+        <EditText
+            android:id="@+id/alteraSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            style="@style/estilologin"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/estilologin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TextView"
+            tools:text="@string/confirmasenhaaltera" />
+
+        <EditText
+            android:id="@+id/alteraConfSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            style="@style/estilologin"/>
+
+        <Button
+            android:id="@+id/alteraButtonCadastrar"
+            style="@style/botaoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorAccent"
+            android:onClick="alteraCadastro"
+            android:textColor="@color/colorYellow"
+            tools:text="@string/alteracadastro" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
