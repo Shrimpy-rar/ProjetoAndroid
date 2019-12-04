@@ -30,4 +30,13 @@ Professor: Marcelo Soares\n
 Desenvolvedores: Mariana Bitencourt, Pablo Loehder, Renan Tristão e Willian Kaminski.\n\n
 
 Versão do App: 1.0</string>
+    <string name="alterar">Alteração de cadastro</string>
+    <string name="novoemail">Novo endereço de email</string>
+    <string name="senhaaltera">Nova senha</string>
+    <string name="confirmasenhaaltera">Confirme sua nova senha</string>
+    <string name="alteracadastro">Salvar</string>
+    <string name="batman">O icone do Batman representa onde você está no mapa.</string>
+    <string name="charada">O charada representa ocorrencias de elementos suspeitos.</string>
+    <string name="home">Bem vindo ao Gotham. Neste aplicativo você pode checar os perigos que há a sua volta. Esse aplicativo depende da colaboração de seus usuários, então nos ajude a mante-lo sempre atualizado!</string>
+    <string name="coringa">O coringa representa ocorrencias de assalto.</string>
 </resources>

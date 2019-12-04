@@ -24,6 +24,15 @@
         <item name="android:textColor">@color/colorText</item>
     </style>
 
+    <style name="estilohome">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
     <style name="botaoLogin" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
